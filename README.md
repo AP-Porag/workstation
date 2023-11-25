@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Project Documentation
 
-See [Document]([https://vitejs.dev/config/](https://docs.google.com/document/d/10wO8e5GffxMtWm4czaszL2QUfsWYwiBoVDEGwQ6UpKI/edit?usp=sharing)).
+See [Document](https://docs.google.com/document/d/10wO8e5GffxMtWm4czaszL2QUfsWYwiBoVDEGwQ6UpKI/edit?usp=sharing).
 
 ## Recommended IDE Setup
 
