@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-main-container">
+  <div class="mb-main-container container-fluid">
     <div class="wrapper">
       <div class="row">
         <div class="col-md-6">
