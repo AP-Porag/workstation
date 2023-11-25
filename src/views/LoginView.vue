@@ -3,32 +3,53 @@
     <div class="h-screen flex justify-center items-center">
       <div class="bg-white mx-4 p-8 rounded shadow-md w-full md:w-1/2 lg:w-1/3">
         <h1 class="text-3xl font-bold mb-8 text-center">Login</h1>
-        <form>
-          <div class="mb-4">
-            <label class="block font-semibold text-gray-700 mb-2" for="email">
-              Email Address
+        <form class="space-y-6">
+          <div>
+            <label class="block text-gray-700 font-bold mb-2" for="email">
+              Email
             </label>
-            <input
-                class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="email" type="email" placeholder="Enter your email address" />
+            <input class="w-full px-4 py-2 rounded-lg border border-gray-400" id="email" name="email"
+                   type="email">
           </div>
-          <div class="mb-4">
-            <label class="block font-semibold text-gray-700 mb-2" for="password">
+          <div>
+            <label class="block text-gray-700 font-bold mb-2" for="password">
               Password
             </label>
-            <input
-                class="border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                id="password" type="password" placeholder="Enter your password" />
-            <a class="text-gray-600 hover:text-gray-800" href="#">Forgot your password?</a>
+            <input class="w-full px-4 py-2 rounded-lg border border-gray-400" id="password" name="password"
+                   type="password">
           </div>
-          <div class="mb-6">
-            <button
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                type="button">
-              Login
+          <div>
+            <button class="w-full bg-purple-700 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded-lg">
+              Log In
             </button>
           </div>
         </form>
+<!--        <form>-->
+<!--          <div class="mb-4">-->
+<!--            <label class="block font-semibold text-gray-700 mb-2" for="email">-->
+<!--              Email Address-->
+<!--            </label>-->
+<!--            <input-->
+<!--                class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"-->
+<!--                id="email" type="email" placeholder="Enter your email address" />-->
+<!--          </div>-->
+<!--          <div class="mb-4">-->
+<!--            <label class="block font-semibold text-gray-700 mb-2" for="password">-->
+<!--              Password-->
+<!--            </label>-->
+<!--            <input-->
+<!--                class="border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"-->
+<!--                id="password" type="password" placeholder="Enter your password" />-->
+<!--            <a class="text-gray-600 hover:text-gray-800" href="#">Forgot your password?</a>-->
+<!--          </div>-->
+<!--          <div class="mb-6">-->
+<!--            <button-->
+<!--                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"-->
+<!--                type="button">-->
+<!--              Login-->
+<!--            </button>-->
+<!--          </div>-->
+<!--        </form>-->
       </div>
     </div>
   </div>
@@ -50,4 +71,5 @@ export default {
   background-color: rgb(55 65 81/0.6);
   //background-color: #374151;
 }
+
 </style>
